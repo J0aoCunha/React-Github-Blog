@@ -1,3 +1,18 @@
+import { Profile } from "./components/Profile"
+import { BlogContainer } from "./styles"
+
 export function Blog() {
-  return <div>Blog</div>
+  return (
+    <BlogContainer>
+      <Profile followers="80" />
+
+      {/* <Search />
+
+      <main>
+        <Post />
+        <Post />
+        <Post />
+      </main> */}
+    </BlogContainer>
+  )
 }
