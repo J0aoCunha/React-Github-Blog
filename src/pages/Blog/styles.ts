@@ -6,6 +6,36 @@ export const BlogContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+`
+export const PublicationContainer = styled.main`
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 54rem;
+  gap: 0.75rem;
 
-  gap: 5rem;
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h3 {
+      color: ${(props) => props.theme["base-subtitle"]};
+      font-size: 18px;
+      font-weight: 700;
+    }
+    span {
+      color: ${(props) => props.theme["base-span"]};
+      text-align: right;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+`
+
+export const Publication = styled.section`
+  display: flex;
+  width: 100%;
+  min-width: 54rem;
+  flex-direction: column;
+  gap: 0.5rem;
 `

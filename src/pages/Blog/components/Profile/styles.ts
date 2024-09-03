@@ -8,8 +8,8 @@ export const ProfileContainer = styled.div`
 
   background: ${(props) => props.theme["base-profile"]};
   border-radius: 10px;
-  padding: 2rem;
-  transform: translateY(-50%);
+  padding: 2rem 2.5rem;
+  transform: translateY(-35%);
 `
 
 export const ImageProfile = styled.div`
