@@ -33,9 +33,11 @@ export const PublicationContainer = styled.main`
 `
 
 export const Publication = styled.section`
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 416px));
   width: 100%;
   min-width: 54rem;
-  flex-direction: column;
-  gap: 0.5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  gap: 2rem;
 `
